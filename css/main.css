@@ -7,6 +7,7 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  height: 800px;
 }
 
 header {
@@ -86,4 +87,6 @@ footer p {
 
 footer {
   margin: 0 28%;
+  position: relative;
+  top: -510px;
 }
