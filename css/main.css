@@ -11,5 +11,30 @@ body {
 
 header {
   background-color: #517fa4;
-  height: 277px
+  height: 277px;
+  position: relative;
+  z-index: 1;
 }
+
+.box {
+  background-image: url(images/frame.png);
+  width: 29%;
+  display: inline-block;
+  position: relative;
+  z-index: 99;
+  left: 45%;
+  top: -100px;
+}
+
+#phones {
+  position: relative;
+  z-index: 98;  
+  top: -578px;
+  left: 17%;
+}
+
+.phone-icon {
+  margin-left: 20px;
+}
+
+
